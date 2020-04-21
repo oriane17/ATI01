@@ -7,7 +7,6 @@ typedef struct
    int longueur;
    unsigned char message[100];
    unsigned char mirroir[100];
-   char* mot
 }point_t;
 
 int longueur_chaine (unsigned char* mot);
