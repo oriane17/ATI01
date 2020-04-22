@@ -36,4 +36,5 @@ int palindrome (point_t* msg)
         }
     }
     printf("Votre mot est un palindrome");
+    return 1;
 }
