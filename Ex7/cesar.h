@@ -9,4 +9,5 @@ typedef struct
 }point_t;
 
 void chiffrer (point_t*);
+void dechiffrer (point_t*);
 #endif
