@@ -25,14 +25,15 @@ void mirror (point_t* msg )
         }
 }
 
-void palindrome (point_t* msg)
+int palindrome (point_t* msg)
 {
-    if ( msg->message == msg->mirroir )
+    for (int i=0; i<msg->longueur; i++)
     {
-        printf("Votre mot est un palindrome");
+        if ( msg->message[i] != msg->mirroir[i] )
+        {
+            printf("Votre mot n'est pas un palindrome");
+            return 0;
+        }
     }
-    else
-    {
-        printf("Votre mot n'est pas un palindrome");
-    }
+    printf("Votre mot est un palindrome");
 }

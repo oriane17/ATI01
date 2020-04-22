@@ -11,5 +11,5 @@ typedef struct
 
 int longueur_chaine (unsigned char* mot);
 void mirror (point_t*);
-void palindrome (point_t*);
+int palindrome (point_t*);
 #endif
