@@ -4,11 +4,12 @@
 #include <stdlib.h>
 #include "factre.h"
 
-int main(int argc, char **argv, char **envv){
-    point_t chaine;
+int main(){
+    int entier;
+    int total;
     printf ("Entrer un entier de votre choix :");
-    scanf("%d",&chaine.entier);
-    chaine.total=factorielle(&chaine);
-    printf("La factorielle de l'entier %d est %d\n",chaine.entier, chaine.total);
+    scanf("%d",&entier);
+    total=factorielle(entier);
+    printf("La factorielle de l'entier %d est %d\n", entier, total);
     return 0;
 }
