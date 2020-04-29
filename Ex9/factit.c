@@ -3,10 +3,10 @@
 #include <stdio.h>
 #include "factit.h"
 
-int factorielle(point_t* calcul)
+int factorielle(int entier)
 {
    int total = 1;
-   for (int factorielle = 1; factorielle <= calcul->entier; factorielle++)
+   for (int factorielle = 1; factorielle <= entier; factorielle++)
       total = total * factorielle;
    return total;
 }
